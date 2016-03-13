@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<catalogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+								xsi:noNamespaceSchemaLocation="catalogue.xsd">
+    <livre>
+ 		<titre> XML </titre>
+ 		<auteur>Alexandre BRILLANT </auteur>
+ 		<edition>Eyrolles </edition>
+ 		<ISBN>92-212-12151-3 </ISBN>
+ 	</livre>
+ 	<livre>
+ 		<titre>JAVA/XML </titre>
+ 		<auteur>Renaud FLEURY </auteur>
+ 		<edition>Cahier du Programmeur </edition>
+ 		<ISBN>2-212-11316-1</ISBN>
+ 	</livre>
+ </catalogue>
+  

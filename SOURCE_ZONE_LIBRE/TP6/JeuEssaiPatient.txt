@@ -1,0 +1,57 @@
+////////////////////////////////////////////////////////////////////
+/// Pour faciliter votre phase de développement					  
+//  et afin d'éviter de saisir à chaque fois les caractéristiques 
+//  vous pouvez affecter directement des valeurs dans un code     
+//  à personnnaliser semblable au suivant						
+////////////////////////////////////////////////////////////////////
+//																//
+// ... N'oubliez pas de mettre en commentaire :					  
+//	    		la Saisie des caractéristiques d'un patient		  
+//     si vous utilisez ce code à la place pour un gain de temps  
+//     dans vos test  tests ....	 							  
+////////////////////////////////////////////////////////////////////
+			
+			Integer idPersonne= 1; // affectation possible grâce à l'autoboxing, 
+					       		   // dans le cas du fichier, on rentre un idPersonne
+					       		   // ... avec BD, ce sera différent...	
+			//nir
+			String nir ="260058700112367";  // un nir valide
+			//String nir ="191128708545628";
+			//String nir ="297112A10102401";
+			//String nir ="168072B12345652";
+			
+			// nom
+			String nom="UNNOM"; 
+			// prenom
+			String prenom= "UnPrenom"; 
+			// date de Naissance
+			String s_dateNaissance="01/01/2000";
+			Date dateNaissance = DateUtil.toDate(s_dateNaissance,DateUtil.FRENCH_DEFAUT);
+			// sexe
+			boolean isMale=false;
+			// téléphone
+			String telephone= "0505050505"; 
+			// portable
+			String portable= "1616161616" ;
+			// email
+			String email= "monEmail@quelquePart.fr"; 
+				//	adresse
+			//numero
+			String numero="1"; 
+			//rue
+			String rue= "une Rue"; 
+			//voie
+			String voie="une Voie";
+			// batiment
+			String batiment= "Un Batiment";
+			//codePostal
+			String codePostal= "11111"; 
+			//ville
+			String ville= "Limoges"; 
+			//pays
+			String pays= "FRANCE"; 
+				
+			 //Medecin TraitantAscendant 
+			String medecinTraitant= "monMedecin"; 
+					 
+		

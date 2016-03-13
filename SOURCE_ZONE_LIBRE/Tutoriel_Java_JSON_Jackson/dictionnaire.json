@@ -1,0 +1,36 @@
+{
+	"lettres" : [
+				 {
+				  "lettre" : "A",
+				  "mots" : [
+				  			{
+				  			 "mot" : "Abricot",
+				  			 "definitions" : [
+				  			 				  {
+				  			 				   "content" : "Un abricot est ...",
+				  			 				   "rapporteur" : "Sylvain Saurel",
+				  			 				   "date" : "26/12/2012"
+				  			 				  }
+				  			 				  ,
+				  			 				  {
+				  			 				   "content" : "ou encore ...",
+				  			 				   "rapporteur" : "Sylvain Saurel",
+				  			 				   "date" : "24/12/2012"				  			 				  
+				  			 				  }
+				  			 				 ]
+				  			}
+				  			,
+				  			{
+				  			 "mot" : "Abeille",
+				  			 "definitions" : [
+				  			 				  {
+				  			 				   "content" : "Une abeille est ...",
+				  			 				   "rapporteur" : "Rachida Saurel",
+				  			 				   "date" : "10/12/2012"
+				  			 				  }
+				  			 				 ]
+				  			}
+				  		   ]
+				 }
+				]
+}

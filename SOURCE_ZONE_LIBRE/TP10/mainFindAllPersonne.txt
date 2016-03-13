@@ -1,0 +1,37 @@
+	public static void main(String args[])
+	{
+		//////////////////////////////////////////
+		/// Test findAllPersonne
+		//////////////////////////////////////////
+		Connection conn=null;
+		Collection<Personne> maListe=null;
+		try {
+			conn = SimpleConnection.getInstance().getConnection();
+			maListe = findAllPersonne(conn);
+			} 
+		catch (CabinetTechniqueException e) {
+			e.printStackTrace();
+		}
+		
+		System.out.println("------------------------------");
+		System.out.println(" La liste reconstituée donne : ");
+		System.out.println(maListe);
+		System.out.println("------------------------------");
+		
+		// Il faut valider la transaction 
+		// car la connection est mode transactionnel : setAutoCommit(false);
+		try {
+			conn.commit();
+			} 
+		catch (SQLException e) {
+			e.printStackTrace();
+		}
+		
+		// fermeture de la ressource ouverte c-a-d la connection
+		try {
+			if (conn!=null && !conn.isClosed()) conn.close();
+			} 
+		catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}// fin main

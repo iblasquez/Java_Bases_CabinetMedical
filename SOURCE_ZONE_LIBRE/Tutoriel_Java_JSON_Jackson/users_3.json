@@ -1,0 +1,18 @@
+{
+   "users":[
+      {
+         "firstname":"Isabelle",
+         "lastname":"Blasquez",
+         "login":"iblasquez",
+         "twitter":"@iblasquez",
+         "web":"www.iutagile.com"
+      },
+      {
+         "firstname":"Sacha",
+         "lastname":"Bourg-Palette",
+         "login":"sbourgpalette",
+         "twitter":"@SachaBourgPalet",
+         "web":"www.pokemon.com"
+      }
+   ]
+}

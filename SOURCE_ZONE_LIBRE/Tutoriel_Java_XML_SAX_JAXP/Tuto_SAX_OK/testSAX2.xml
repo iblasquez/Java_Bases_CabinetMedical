@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <catalogue>
+ 	<livre titre="XML" auteur="Alexandre BRILLANT">
+ 		<edition>Eyrolles </edition>
+ 		<ISBN>92-212-12151-3 </ISBN>
+ 	</livre>
+ </catalogue>
+  
